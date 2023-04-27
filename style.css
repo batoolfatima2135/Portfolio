@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 48px;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.normal_button {
+  padding: 8px;
+  width: 24px;
+  height: 24px;
+  margin-top: 4px;
+  margin-right: 24px;
+}
+
+.headline {
+  background:
+    url("images/background_images/back.png") 0 0 no-repeat,
+    url("images/background_images/block1.png") 100% 0 no-repeat,
+    url("images/background_images/block2.png") 100% 42% no-repeat,
+    url("images/background_images/block3.png") 0 82% no-repeat,
+    url("images/background_images/cylinder.png") 38% 76% no-repeat,
+    url("images/background_images/block4.png") 3% 21.5% no-repeat;
+  width: 100%;
+  height: 653.32px;
+  display: flex;
+  flex-direction: column;
+}
+
+.headline h2,
+p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  text-align: center;
+}
+
+.headline h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+}
+
+.headline p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  margin: 15px 27px 20px 27px;
+  color: #172b4d;
+}
+
+.greeting {
+  margin-top: 62.3px;
+  margin-bottom: 0;
+  color: #172b4d;
+}
+
+.intro {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #36b37e;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.social_media_icons {
+  display: flex;
+  justify-content: center;
+}
+
+.icons {
+  margin: 0 10px 0 10px;
+}
