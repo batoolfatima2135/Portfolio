@@ -48,6 +48,8 @@
 
 - **Portfolio with the toolbar**
 - **Portfolio with the headline section**
+- **Portfolio with Work display**
+- **Portfolio with About section**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -88,11 +90,9 @@ Clone this repository to your desired folder:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
+- [ ] **Contact info**
+- [ ] **Footer**
 
-- [ ] **Work Experience**
-- [ ] **Basic info**
-- [ ] **Technical skills**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
