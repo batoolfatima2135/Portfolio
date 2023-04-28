@@ -104,16 +104,18 @@ p {
 }
 
 .works_section {
-  display: flex;
+  display: grid;
+  grid-template-rows: 200px 474px 474px 474px 474px 474px 474px;
   justify-content: center;
+  gap: 24px;
   align-items: center;
   padding: 64px;
   flex-direction: column;
   background: url("images/background_images/ctylinder2.png") 100% 0% no-repeat;
 }
 
-.works_section h1,
-.about_section h1 {
+.works-heading h2,
+.about_section h2 {
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -126,14 +128,6 @@ p {
   display: flex;
   justify-content: center;
   padding-top: 24px;
-}
-
-.works {
-  display: grid;
-  grid-template-rows: 474px 474px 474px 474px 474px 474px;
-  margin-top: 62px;
-  width: 327px;
-  gap: 24px;
 }
 
 .work-item {
@@ -266,6 +260,7 @@ p {
 }
 
 .about-tech {
+  list-style: none;
   display: grid;
   grid-template-rows: 316px 316px 316px;
   width: 327px;
