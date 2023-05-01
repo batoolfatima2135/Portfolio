@@ -149,8 +149,14 @@ p {
   border-radius: 8px;
 }
 
+.tech-stack li{
+  position: relative;
+  float: inline-start;
+}
+
 .tech-stack {
   display: flex;
+ position: relative;
   list-style: none;
   justify-content: space-between;
   align-items: center;
