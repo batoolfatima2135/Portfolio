@@ -142,21 +142,15 @@ p {
 }
 
 .details {
-  display: flex;
-  flex-direction: column;
+  float: inline-start;
   background: #fff;
   justify-content: center;
   border-radius: 8px;
 }
 
-.tech-stack li{
-  position: relative;
-  float: inline-start;
-}
-
 .tech-stack {
   display: flex;
- position: relative;
+  position: relative;
   list-style: none;
   justify-content: space-between;
   align-items: center;
@@ -173,6 +167,8 @@ p {
 }
 
 .tech-stack li {
+  position: relative;
+  float: inline-start;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
