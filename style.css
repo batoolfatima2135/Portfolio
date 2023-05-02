@@ -205,7 +205,7 @@ p {
   line-height: 32px;
   text-align: center;
   color: #42526e;
-  margin: 24px 18px 24px 18px;
+  margin: 24px 10px 24px 10px;
 }
 
 .about_section {
@@ -227,9 +227,6 @@ p {
   height: 316px;
   width: 327px;
   background: #ebf0ee;
-
-  /* Neutrals/N50 */
-
   border: 1px solid #c1c7d0;
   border-radius: 8px;
   padding-bottom: 20px;
@@ -309,4 +306,71 @@ p {
   border-radius: 8px;
   padding: 12px;
   letter-spacing: 0.03em;
+}
+
+.contact_section {
+  background: url("images/background_images/bg.png") 100% 95% no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.contact_section h2 {
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #172b4d;
+  margin: 60px 24px 0 24px;
+}
+
+input,
+textarea {
+  outline: none;
+  background: #fff;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+  padding: 15px 16px 15px 16px;
+  margin: 12px 10px 12px 10px;
+  width: 275px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #42526e;
+}
+
+input:placeholder-shown {
+  font-style: italic;
+}
+
+form {
+  margin: 52px 24px 30px 24px;
+}
+
+.contact_section button {
+  padding: 12px;
+  background-color: #36b37f;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  color: #fff;
+  border: none;
+  letter-spacing: 0.03em;
+  margin-top: 10px;
+  margin-left: 103px;
+}
+
+.email {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #42526e;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
