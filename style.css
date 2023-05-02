@@ -342,6 +342,7 @@ input:placeholder-shown {
 input , textarea
 {
   /* Theme 1 /  Neutrals 11 */
+  outline: none;
 
 background: #FFFFFF;
 
@@ -354,6 +355,25 @@ width:275px;
 }
 form
 {
-margin-top: 
+  justify-content: center;
+  margin-top:
+ 
 50px;
+}
+.contact_section button {
+  padding: 12px;
+  background-color: #36b37f;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  color: #fff;
+  border: none;
+  letter-spacing: 0.03em;
+  margin-left:auto;
+  margin-right: auto;
+}
+#submit{
+  margin-left: auto ;
+  margin-right: auto;
 }
