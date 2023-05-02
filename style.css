@@ -325,10 +325,6 @@ p {
   margin: 60px 24px 0 24px;
 }
 
-input:placeholder-shown {
-  font-style: italic;
-}
-
 input,
 textarea {
   outline: none;
@@ -338,12 +334,16 @@ textarea {
   padding: 15px 16px 15px 16px;
   margin: 12px 10px 12px 10px;
   width: 275px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
   color: #42526e;
+}
+
+input:placeholder-shown {
+  font-style: italic;
 }
 
 form {
@@ -365,18 +365,11 @@ form {
 }
 
 .email {
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
-
-  /* or 160% */
-
   text-align: center;
-
-  /* Neutrals/N500 */
-
   color: #42526e;
   margin-top: 30px;
   margin-bottom: 30px;
