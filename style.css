@@ -310,3 +310,50 @@ p {
   padding: 12px;
   letter-spacing: 0.03em;
 }
+.contact_section
+{
+  display:flexbox;
+  flex-direction: column;
+  margin : 52px 24px 54px 24px;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.contact_section h2
+{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+/* or 130% */
+
+text-align: center;
+
+/* Neutrals/N800 */
+
+color: #172B4D;
+}
+input:placeholder-shown {
+   font-style: italic;
+}
+input , textarea
+{
+  /* Theme 1 /  Neutrals 11 */
+
+background: #FFFFFF;
+
+
+border: 1px solid #D0D9D4;
+border-radius: 4px;
+padding :15px 16px 15px 16px;
+margin : 12px 12px 12px 12px;
+width:275px;
+}
+form
+{
+margin-top: 
+50px;
+}
