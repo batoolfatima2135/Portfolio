@@ -50,7 +50,8 @@
 - **Portfolio with the headline section**
 - **Portfolio with Work display**
 - **Portfolio with About section**
-
+- **Portfolio with Contact section**
+- **Portfolio with footer**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -84,14 +85,25 @@ Clone this repository to your desired folder:
 - GitHub: [@githubhandle](https://github.com/batoolfatima2135)
 - Twitter: [@twitterhandle](https://twitter.com/batool2135)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/batool-fatima-515531196/)
+
+👤 **Malik Muhammad Haider Khan**
+
+- GitHub: [@githubhandle](https://github.com/malikhaiderkhan)
+- Twitter: [@twitterhandle](https://twitter.com/malikhaiderkha)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/malik-haider-khan-b53188140)
+
+👤 **Fatima Najafi**
+
+- GitHub: [@githubhandle](https://github.com/fatima-najafi)
+- Twitter: [@twitterhandle](https://twitter.com)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/fatima-najafi-75424a23a/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Contact info**
-- [ ] **Footer**
+- [ ] **Desktop Version**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -118,7 +130,7 @@ If you like this project kindly consider and share my profile.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank my peers and my partners for their encouragment and support. 
+I would like to thank my peers and my Collaborators for their encouragment and support. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
