@@ -22,6 +22,7 @@
         </header>
         <section class="headline">
             <h1 class="greeting">Hey there.<br>I’m Alex.</h1>
+            <h1 class="greeting-desktop">Hey there.I’m Alex.</h1>
             <h1 class="intro">I’m a software developer</h1>
             <p>I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
                don’t hesitate to contact me.
@@ -35,16 +36,18 @@
                     <li><a href=""><img class="icons" src="images/social media icons/angellist.png" alt="angellist"></a></li>
                 </ul>
              </section>
+             <section class="button">
+                <button class="down">
+                    <img src="images/Icon - Chevron - Down - Larger.png" alt="Icon-down">
+                </button>
+            </section>
         </section>
-        <section class="button">
-            <button class="down">
-                <img src="images/Icon - Chevron - Down - Larger.png" alt="Icon-down">
-            </button>
-        </section>
+        
     </section>
     <section class="works_section">
         <div class="works-heading">
-          <h2>My Recent <br> Works</h2>
+          <h2 class="mob-view-heading">My Recent <br> Works</h2>
+          <h2 class="desktop-view-heading">My Recent  Works</h2>
           <div class="bar">
             <img src="images/Indicator.png" alt="heading bar" height="4px" width="48px">
           </div>
@@ -238,22 +241,25 @@
                   >
                 <input type="text" name="name" id="name" placeholder="Full name" maxlength="30" required>
                 <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Email Address"  required>
-                <textarea rows="7" cols="30" placeholder="Hey I’d like to connect to..."  required maxlength="500"></textarea>
+                <textarea rows="4" cols="30" placeholder="Hey I’d like to connect to..."  required maxlength="500"></textarea>
                 <button type="submit" id="submit">Get in touch</button>
              </form>
-             <p class="email">myemailhere@email.com</p>
-             <section class="social_media_icons">
-                <ul class="social_media_list">
-                    <li><a href=""><img class="icons"  src="images/social media icons/twitter.png" alt="twitter"></a></li>
-                    <li><a href=""><img class="icons" src="images/social media icons/Linkedin icon.png" alt="Linkedin"></a></li>
-                    <li><a href=""><img class="icons" src="images/social media icons/medium.png" alt="medium"></a></li>
-                    <li><a href=""><img class="icons" src="images/social media icons/github.png" alt="github"></a></li>
-                    <li><a href=""><img class="icons" src="images/social media icons/angellist.png" alt="angellist"></a></li>
-                </ul>
-             </section>
+          
            
      
     </section>
+    <footer>
+        <p class="email">myemailhere@email.com</p>
+        <section class="social_media_icons">
+           <ul class="social_media_list">
+               <li><a href=""><img class="icons"  src="images/social media icons/twitter.png" alt="twitter"></a></li>
+               <li><a href=""><img class="icons" src="images/social media icons/Linkedin icon.png" alt="Linkedin"></a></li>
+               <li><a href=""><img class="icons" src="images/social media icons/medium.png" alt="medium"></a></li>
+               <li><a href=""><img class="icons" src="images/social media icons/github.png" alt="github"></a></li>
+               <li><a href=""><img class="icons" src="images/social media icons/angellist.png" alt="angellist"></a></li>
+           </ul>
+        </section>
+    </footer>
 </body>
 
 </html>

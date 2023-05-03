@@ -5,7 +5,6 @@
 
 body {
   font-family: 'Inter', sans-serif;
-
 }
 
 header {
@@ -44,7 +43,7 @@ p {
 }
 
 .headline h1 {
-  font-weight: 700;
+  font-weight: 000;
   font-size: 40px;
   line-height: 130%;
 }
@@ -55,6 +54,14 @@ p {
   line-height: 28px;
   margin: 15px 27px 20px 27px;
   color: #172b4d;
+}
+
+.desktop-view-heading {
+  display: none;
+}
+
+.mob-view-heading {
+  display: block;
 }
 
 .greeting {
@@ -72,6 +79,8 @@ p {
 .main {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
 
 .social_media_icons {
@@ -102,6 +111,11 @@ p {
 .button {
   display: flex;
   justify-content: center;
+  margin-top: 50px;
+}
+
+.greeting-desktop {
+  display: none;
 }
 
 .works_section {
@@ -147,6 +161,7 @@ p {
   flex-direction: column;
   background: #fff;
   justify-content: center;
+  width: 100%;
   border-radius: 8px;
 }
 
@@ -375,59 +390,170 @@ form {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-.desktop-menu
-{
-display: none;
+
+.desktop-menu {
+  display: none;
 }
-@media only screen and (min-device-width: 768px) {
+
+.contact_section button:hover {
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+}
+
+.contact_section button:active {
+  background: #008552;
+}
+
+@media only screen and (min-width: 768px) {
   .desktop-menu {
     display: flex;
     list-style: none;
     justify-content: center;
     align-items: center;
     width: 100%;
-   
   }
-  .menu-icon
-  {
+
+  .menu-icon {
     display: none;
   }
+
   .desktop-menu li {
-   
     font-style: normal;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 12px;
     line-height: 16px;
     margin: 4px;
-   
     padding: 8px;
     letter-spacing: 0.03em;
-
   }
+
   .desktop-menu li a {
-   
     text-decoration: none;
     color: #172b4d;
+  }
 
-  }
   .headline {
-    background:none;
-  
-  
+    background: none;
+    width: 60%;
+    box-sizing: border-box;
   }
- 
-  
-  .normal_button
-  {
+
+  .headline h1 {
+    font-size: 30px;
+  }
+
+  .headline p {
+    font-size: 20px;
+    line-height: 35px;
+  }
+
+  .normal_button {
     display: flex;
     width: 100%;
     flex-direction: column;
-    
   }
-  .main{
-    background:url("images/background_images/Header-llustration-desktop.png") no-repeat;
-    background-size: contain;
+
+  .main {
+    background:
+
+      url("images/background_images/Group\ 36.png") 100% 30% no-repeat,
+      url("images/background_images/Frame2.png") 5% 30% no-repeat,
+      url("images/background_images/Frame3.png") 75% 0% no-repeat,
+      url("images/background_images/Frame4.png") 40% 80% no-repeat,
+      url("images/background_images/Frame5.png") 80% 100% no-repeat,
+      url("images/background_images/Frame6.png") 15% 95% no-repeat,
+      url("images/background_images/Group\ 35.png") 0 0 no-repeat;
+    background-size: 180px, 160px, 150px, 75px, 150px, 100px, cover;
     width: 100%;
-    height: 3855px;
   }
-};
+
+  .bar {
+    display: none;
+  }
+
+  .greeting {
+    display: none;
+  }
+
+  .greeting-desktop {
+    display: block;
+    margin-top: 62.3px;
+    margin-bottom: 0;
+    color: #172b4d;
+  }
+
+  .desktop-view-heading {
+    display: block;
+  }
+
+  .mob-view-heading {
+    display: none;
+  }
+
+
+
+
+
+  .details h2 {
+    font-size: 18px;
+  }
+
+  .about_section {
+    background:
+      url("images/background_images/illustration-about-me-2-desktop.png") 0% 10% no-repeat,
+      url("images/background_images/illustration-about\ me-1-desktop.png") 100% 0% no-repeat;
+    background-size: 150px, 150px;
+  }
+
+  .about_section p {
+    width: 50%;
+    font-size: 20px;
+    height: auto;
+    line-height: 35px;
+  }
+
+  .contact_section {
+    background:
+      url("images/background_images/illustration-1-contact-form-desktop.png") 0% 95% no-repeat,
+      url("images/background_images/Frame-contact.png") 100% 95% no-repeat,
+      url("images/background_images/illustration-2-contact-form-desktop.png") 20% 90% no-repeat;
+    background-size: 140px, 160px, 100px;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .email {
+    display: none;
+  }
+
+  .contact_section h2 {
+    font-size: 22px;
+    text-align: inherit;
+    line-height: 32px;
+    width: 90%;
+    font-style: normal;
+    font-weight: 700;
+    margin: 120px 5px 0 80px;
+  }
+
+  form {
+    width: 100%;
+    margin: 80px 80px 190px 0;
+  }
+
+  input,
+  textarea {
+    border: 1px solid #d0d9d4;
+    border-radius: 4px;
+    padding: 8px;
+    margin: 6px;
+    width: 90%;
+  }
+
+  .contact_section button {
+    padding: 10px;
+    font-size: 14px;
+    margin: 0;
+  }
+}
