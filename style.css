@@ -5,6 +5,7 @@
 
 body {
   font-family: 'Inter', sans-serif;
+
 }
 
 header {
@@ -374,3 +375,59 @@ form {
   margin-top: 30px;
   margin-bottom: 30px;
 }
+.desktop-menu
+{
+display: none;
+}
+@media only screen and (min-device-width: 768px) {
+  .desktop-menu {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   
+  }
+  .menu-icon
+  {
+    display: none;
+  }
+  .desktop-menu li {
+   
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+    margin: 4px;
+   
+    padding: 8px;
+    letter-spacing: 0.03em;
+
+  }
+  .desktop-menu li a {
+   
+    text-decoration: none;
+    color: #172b4d;
+
+  }
+  .headline {
+    background:none;
+  
+  
+  }
+ 
+  
+  .normal_button
+  {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    
+  }
+  .main{
+    background:url("images/background_images/Header-llustration-desktop.png") no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 3855px;
+  }
+};
