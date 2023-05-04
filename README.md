@@ -14,7 +14,11 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
+   - [Prerequisites](#prerequisites)
+   - [Setup](#setup)
+   - [Install](#install)
+   - [Usage](#usage)
+   - [Run tests](#run-tests)
  - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -58,20 +62,49 @@
 
 <!-- GETTING STARTED -->
 
-## 💻 Getting Started <a name="getting-started"></a>
-
-To get a local copy up and running, follow these steps.
+## 💻Getting Started <a name="getting-started"></a>
+To go through this project, follow these steps.
+### Prerequisites
+In order to run this project you need:
++ A computer with an internet connection
++ A web browser
 
 ### Setup
-
-In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```sh
-  cd my-folder
-  git clone https://github.com/batoolfatima2135/Portfolio.git
+cd Portfolio-Mobile-First
+git clone git@github.com:malikhaiderkhan/Portfolio-Mobile-First.git
 ```
 
+### Install
+Install this project with:
+
+```sh
+npm init -y
+npm install --save-dev hint@7.x
+```
+
+### Run tests
+To track linter errors locally follow these steps:
+
+Download all the dependencies run:
+```sh
+npm install --save-dev hint@7.x
+```
+
+Track HTML linter errors run:
+```sh
+npx hint .
+```
+
+Track CSS linter errors run:
+```sh
+npx stylelint "**/*.{css,scss}"
+```
+
+### Usage
+To run the project, execute the "index.html" file in your browser
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -103,7 +136,7 @@ Clone this repository to your desired folder:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Desktop Version**
+- [ ] **Transitions and animation with javascript**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
