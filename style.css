@@ -76,7 +76,7 @@ p {
   color: #36b37e;
 }
 
-.main {
+.header {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -452,7 +452,7 @@ form {
     flex-direction: column;
   }
 
-  .main {
+  .header {
     background:
 
       url("images/background_images/Group\ 36.png") 100% 30% no-repeat,
@@ -488,10 +488,6 @@ form {
   .mob-view-heading {
     display: none;
   }
-
-
-
-
 
   .details h2 {
     font-size: 18px;
