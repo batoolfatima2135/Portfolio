@@ -114,8 +114,8 @@ p {
   justify-content: center;
   margin-top: 50px;
 }
-.separate
-{
+
+.separate {
   display: none;
 }
 
@@ -650,11 +650,10 @@ form {
   }
 
   footer .social_media_icons {
-   
     margin: 20px;
   }
-  .separate
-  {
+
+  .separate {
     display: block;
   }
 }
