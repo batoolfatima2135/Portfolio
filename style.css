@@ -77,8 +77,15 @@ p {
 
 .intro {
   margin-top: 0;
+  visibility:hidden;
   margin-bottom: 0;
   color: #36b37e;
+  animation-name: fade-in;
+  animation-duration: 2s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  
+  
 }
 
 .main {
@@ -91,6 +98,7 @@ p {
   justify-content: center;
 }
 
+
 .icons {
   margin: 0 10px 0 10px;
 }
@@ -101,6 +109,24 @@ p {
 
 .social_media_list li {
   display: inline;
+
+  
+  
+}
+.social_media_list li img:hover{
+  transform: scale(1.2)
+
+}
+@keyframes fade-in {
+  0%{
+    font-size: 0px ;
+    visibility:visible;
+  }
+  100%{
+    font-size: 40px;
+    visibility:visible;
+  }
+  
 }
 
 .down {
