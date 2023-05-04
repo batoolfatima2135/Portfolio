@@ -406,6 +406,12 @@ footer .social_media_icons {
   display: none;
 }
 
+.bottom-separator {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media only screen and (min-width: 768px) {
   .desktop-menu {
     display: flex;
@@ -664,10 +670,4 @@ footer .social_media_icons {
   .separate {
     display: block;
   }
-}
-
-.bottom-separator img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
