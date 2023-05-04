@@ -60,7 +60,20 @@ p {
   margin-top: 62.3px;
   margin-bottom: 0;
   color: #172b4d;
+  animation-name: slide-in;
+  animation-duration: 2s;
 }
+@keyframes slide-in {
+  0%   {
+    margin-left: 100%;
+    
+  }
+  
+  100% {
+    margin-left: 0%;
+  }
+}
+
 
 .intro {
   margin-top: 0;
@@ -373,4 +386,12 @@ form {
   color: #42526e;
   margin-top: 30px;
   margin-bottom: 30px;
+}
+button
+{
+  transition: padding 2s , font-size 2s ;
+}
+button:hover{
+  padding:12px;
+  font-size: 18px;
 }
