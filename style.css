@@ -114,6 +114,10 @@ p {
   justify-content: center;
   margin-top: 50px;
 }
+.separate
+{
+  display: none;
+}
 
 .greeting-desktop {
   display: none;
@@ -646,6 +650,11 @@ form {
   }
 
   footer .social_media_icons {
-    padding: 20px;
+   
+    margin: 20px;
+  }
+  .separate
+  {
+    display: block;
   }
 }
