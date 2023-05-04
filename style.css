@@ -54,6 +54,11 @@ p {
   line-height: 28px;
   margin: 15px 27px 20px 27px;
   color: #172b4d;
+  animation-name: slide-in;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+  animation-delay: 3s;
 }
 
 .greeting {
@@ -62,15 +67,18 @@ p {
   color: #172b4d;
   animation-name: slide-in;
   animation-duration: 2s;
+  animation-fill-mode: forwards;
+  visibility: hidden;
 }
 @keyframes slide-in {
   0%   {
     margin-left: 100%;
-    
+    visibility:visible;
   }
   
   100% {
     margin-left: 0%;
+    visibility:visible;
   }
 }
 
@@ -113,6 +121,8 @@ p {
   
   
 }
+
+
 .social_media_list li img:hover{
   transform: scale(1.2)
 
