@@ -387,6 +387,10 @@ form {
   margin-top: 10px;
 }
 
+footer .social_media_icons {
+  margin: 20px;
+}
+
 .email {
   font-style: normal;
   font-weight: 400;
