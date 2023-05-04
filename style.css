@@ -388,7 +388,13 @@ form {
 }
 
 footer .social_media_icons {
-  margin: 20px;
+  margin: 25px;
+}
+
+.bottom-separator img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .email {
@@ -558,6 +564,10 @@ footer .social_media_icons {
     grid-template-columns: repeat(3, 1fr);
     padding: 45px 66px 66px 55px;
     box-sizing: border-box;
+  }
+
+  .bottom-separator {
+    display: none;
   }
 
   .details h2 {
