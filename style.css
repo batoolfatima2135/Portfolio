@@ -391,12 +391,6 @@ footer .social_media_icons {
   margin: 25px;
 }
 
-.bottom-separator img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .email {
   font-style: normal;
   font-weight: 400;
@@ -410,6 +404,12 @@ footer .social_media_icons {
 
 .desktop-menu {
   display: none;
+}
+
+.bottom-separator img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media only screen and (min-width: 768px) {
