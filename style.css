@@ -14,6 +14,20 @@ header {
   width: 100%;
 }
 
+button {
+  transition: padding 2s, font-size 2s;
+}
+
+button:hover {
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+  padding: 12px;
+  font-size: 18px;
+}
+
+button:active {
+  background: #008552;
+}
+
 .normal_button {
   padding: 8px;
   width: 24px;
@@ -54,11 +68,25 @@ p {
   line-height: 28px;
   margin: 15px 27px 20px 27px;
   color: #172b4d;
-  animation-name: slide-in;
-  animation-duration: 2s;
-  animation-fill-mode: forwards;
   visibility: hidden;
+  animation-name: slide;
+  animation-duration: 1s;
   animation-delay: 3s;
+  animation-fill-mode: forwards;
+  box-sizing: border-box;
+}
+
+@keyframes slide {
+  from {
+    margin-left: 100%;
+  }
+
+  to {
+    margin: 0%;
+    padding: 15px 27px 20px 27px;
+    width: 100%;
+    visibility: visible;
+  }
 }
 
 .greeting {
@@ -66,34 +94,31 @@ p {
   margin-bottom: 0;
   color: #172b4d;
   animation-name: slide-in;
-  animation-duration: 2s;
-  animation-fill-mode: forwards;
-  visibility: hidden;
-}
-@keyframes slide-in {
-  0%   {
-    margin-left: 100%;
-    visibility:visible;
-  }
-  
-  100% {
-    margin-left: 0%;
-    visibility:visible;
-  }
+  animation-duration: 1s;
 }
 
+@keyframes slide-in {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+    visibility: visible;
+  }
+}
 
 .intro {
   margin-top: 0;
-  visibility:hidden;
   margin-bottom: 0;
   color: #36b37e;
-  animation-name: fade-in;
+  visibility: hidden;
+  animation-name: slide-in;
   animation-duration: 2s;
-  animation-delay: 2s;
+  animation-delay: 1s;
   animation-fill-mode: forwards;
-  
-  
 }
 
 .main {
@@ -106,7 +131,6 @@ p {
   justify-content: center;
 }
 
-
 .icons {
   margin: 0 10px 0 10px;
 }
@@ -117,26 +141,10 @@ p {
 
 .social_media_list li {
   display: inline;
-
-  
-  
 }
 
-
-.social_media_list li img:hover{
-  transform: scale(1.2)
-
-}
-@keyframes fade-in {
-  0%{
-    font-size: 0px ;
-    visibility:visible;
-  }
-  100%{
-    font-size: 40px;
-    visibility:visible;
-  }
-  
+.social_media_list li img:hover {
+  transform: scale(1.2);
 }
 
 .down {
@@ -422,12 +430,4 @@ form {
   color: #42526e;
   margin-top: 30px;
   margin-bottom: 30px;
-}
-button
-{
-  transition: padding 2s , font-size 2s ;
-}
-button:hover{
-  padding:12px;
-  font-size: 18px;
 }
