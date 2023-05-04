@@ -5,6 +5,7 @@
 
 body {
   font-family: 'Inter', sans-serif;
+  overflow-x: hidden !important;
 }
 
 header {
@@ -124,8 +125,7 @@ p {
   justify-content: center;
   gap: 24px;
   align-items: center;
-  padding: 64px;
-  flex-direction: column;
+  padding: 34px;
   background: url("images/background_images/ctylinder2.png") 100% 0% no-repeat;
 }
 
@@ -153,7 +153,6 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  width: 327px;
 }
 
 .details {
@@ -189,7 +188,7 @@ p {
   line-height: 16px;
   background: #ebf0ee;
   border-radius: 4px;
-  padding: 8px 12px 8px 12px;
+  padding: 8px 10px 8px 10px;
   letter-spacing: 0.03em;
   color: #3a4a42;
 }
@@ -197,10 +196,12 @@ p {
 .project {
   background: #fff;
   margin: 16px 11px 16px 11px;
+  justify-items: center;
+  display: flex;
+  justify-content: center;
 }
 
 .project button {
-  margin: 13px 91px 8px 91px;
   padding: 12px;
   background: #36b37f;
   border-radius: 4px;
@@ -325,7 +326,7 @@ p {
 }
 
 .contact_section {
-  background: url("images/background_images/bg.png") 100% 95% no-repeat;
+  background: url("images/background_images/bg.png") 100% 100% no-repeat;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -363,7 +364,10 @@ input:placeholder-shown {
 }
 
 form {
-  margin: 52px 24px 30px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact_section button {
@@ -377,7 +381,6 @@ form {
   border: none;
   letter-spacing: 0.03em;
   margin-top: 10px;
-  margin-left: 103px;
 }
 
 .email {
@@ -393,14 +396,6 @@ form {
 
 .desktop-menu {
   display: none;
-}
-
-.contact_section button:hover {
-  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
-}
-
-.contact_section button:active {
-  background: #008552;
 }
 
 @media only screen and (min-width: 768px) {
@@ -442,8 +437,8 @@ form {
   }
 
   .headline p {
-    font-size: 20px;
-    line-height: 35px;
+    font-size: 14px;
+    line-height: 20px;
   }
 
   .normal_button {
@@ -489,10 +484,6 @@ form {
     display: none;
   }
 
-  .details h2 {
-    font-size: 18px;
-  }
-
   .about_section {
     background:
       url("images/background_images/illustration-about-me-2-desktop.png") 0% 10% no-repeat,
@@ -501,10 +492,10 @@ form {
   }
 
   .about_section p {
-    width: 50%;
-    font-size: 20px;
+    width: 60%;
+    font-size: 17px;
     height: auto;
-    line-height: 35px;
+    line-height: 25px;
   }
 
   .contact_section {
@@ -551,5 +542,110 @@ form {
     padding: 10px;
     font-size: 14px;
     margin: 0;
+  }
+
+  .works_section {
+    display: grid;
+    grid-template-rows: 80px 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 45px 66px 66px 55px;
+    box-sizing: border-box;
+  }
+
+  .details h2 {
+    margin: 10px;
+    line-height: 25px;
+    font-size: 18px;
+  }
+
+  .work-item {
+    height: 300px;
+  }
+
+  .works-heading {
+    grid-column: 1/4;
+  }
+
+  .tech-stack li {
+    font-weight: 600;
+    font-size: 8px;
+    padding: 1px 5px;
+    color: #3a4a42;
+  }
+
+  .tech-stack {
+    justify-content: space-around;
+    margin: 0 5px;
+    box-sizing: border-box;
+  }
+
+  .project button {
+    padding: 8px;
+    font-size: 12px;
+    color: #fff;
+    border: none;
+  }
+
+  .about-tech {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 200px;
+    width: 100%;
+    padding: 0 66px;
+    box-sizing: border-box;
+    gap: 24px;
+    justify-content: center;
+    align-items: start;
+    margin-top: 45px;
+  }
+
+  .languages,
+  .frameworks,
+  .skills {
+    width: 100%;
+    height: 190px;
+    padding-top: 20px;
+    justify-content: start;
+    padding-bottom: 0;
+  }
+
+  .languages h2,
+  .frameworks h2,
+  .skills h2 {
+    font-size: 20px;
+    line-height: 22px;
+    margin-top: -20px;
+    margin-bottom: 10px;
+  }
+
+  .icon-language {
+    margin-top: 0;
+  }
+
+  .icon-frameworks,
+  .icon-skills {
+    margin-top: 0;
+  }
+
+  .tech {
+    margin: 4px 0 4px 0.5px;
+    align-items: center;
+  }
+
+  .tech li {
+    font-size: 8px;
+    line-height: 10px;
+    margin: 2px;
+    border-radius: 2px;
+    padding: 6px;
+    letter-spacing: 0.03em;
+  }
+
+  .about-details button {
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  footer .social_media_icons {
+    padding: 20px;
   }
 }
