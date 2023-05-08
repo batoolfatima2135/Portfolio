@@ -31,8 +31,6 @@
 
 # 📖 Portfolio <a name="about-project"></a>
 
- 
-
 **Portfolio** is a compilation of academic and professional materials that exemplifies my skills, qualifications, education, training, and experiences.
 
 ## 🛠 Built With <a name="built-with"></a>
