@@ -5,7 +5,7 @@
 
 body {
   font-family: 'Inter', sans-serif;
-  overflow-x: hidden !important;
+  
 }
 
 header {
@@ -70,25 +70,25 @@ p {
   margin: 15px 27px 20px 27px;
   color: #172b4d;
   visibility: hidden;
-  animation-name: slide;
+  animation-name: slide-up;
   animation-duration: 1s;
   animation-delay: 3s;
   animation-fill-mode: forwards;
   box-sizing: border-box;
 }
-
-@keyframes slide {
+@keyframes slide-up {
   from {
-    margin-left: 100%;
+    margin-top: 100%;
+    height: 300%; 
   }
 
   to {
-    margin: 0%;
-    padding: 15px 27px 20px 27px;
-    width: 100%;
+    margin: 15px 27px 20px 27px;
+    height: auto;
     visibility: visible;
   }
 }
+
 
 .desktop-view-heading {
   display: none;
@@ -105,6 +105,7 @@ p {
   animation-name: slide-in;
   animation-duration: 1s;
 }
+
 
 @keyframes slide-in {
   from {
@@ -140,6 +141,11 @@ p {
 .social_media_icons {
   display: flex;
   justify-content: center;
+  animation: slide-up;
+  animation-duration: 1s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+  visibility: hidden;
 }
 
 .icons {
@@ -545,6 +551,8 @@ footer .social_media_icons {
     margin-top: 62.3px;
     margin-bottom: 0;
     color: #172b4d;
+    animation-name: slide-in;
+    animation-duration: 1s;
   }
 
   .desktop-view-heading {
