@@ -13,13 +13,14 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [💻 Getting Started](#getting-started)
-   - [Prerequisites](#prerequisites)
-   - [Setup](#setup)
-   - [Install](#install)
-   - [Usage](#usage)
-   - [Run tests](#run-tests)
- - [👥 Authors](#authors)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+- [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
@@ -29,8 +30,6 @@
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 Portfolio <a name="about-project"></a>
-
- 
 
 **Portfolio** is a compilation of academic and professional materials that exemplifies my skills, qualifications, education, training, and experiences.
 
@@ -56,6 +55,13 @@
 - **Portfolio with About section**
 - **Portfolio with Contact section**
 - **Portfolio with footer**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://batoolfatima2135.github.io/Portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
