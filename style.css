@@ -5,7 +5,6 @@
 
 body {
   font-family: 'Inter', sans-serif;
-  
 }
 
 header {
@@ -76,10 +75,11 @@ p {
   animation-fill-mode: forwards;
   box-sizing: border-box;
 }
+
 @keyframes slide-up {
   from {
     margin-top: 100%;
-    height: 300%; 
+    height: 300%;
   }
 
   to {
@@ -88,7 +88,6 @@ p {
     visibility: visible;
   }
 }
-
 
 .desktop-view-heading {
   display: none;
@@ -105,7 +104,6 @@ p {
   animation-name: slide-in;
   animation-duration: 1s;
 }
-
 
 @keyframes slide-in {
   from {
@@ -126,7 +124,7 @@ p {
   color: #36b37e;
   visibility: hidden;
   animation-name: slide-in;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-delay: 1s;
   animation-fill-mode: forwards;
 }
