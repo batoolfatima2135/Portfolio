@@ -7,22 +7,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body >
     <main>
         <section class="header">
             <header>
                 <nav class="normal_button">
-                    <img class="menu-icon" src="images/Icon - Menu.png" width="24px" height="24px" alt="Menu-Icon">
+
                     <ul class="desktop-menu">
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#Portfolio">Portfolio</a></li>
+                        <li><a href="#About">About</a></li>
+                        <li><a href="#Contact">Contact</a></li>
                     </ul>
                 </nav>
+                <nav class="mob-nav">
+                    <img class="menu-icon" src="images/Icon - Menu.png" width="24px" height="24px" alt="Menu-Icon"
+                        id="hamburger">
+                    <img src="images/Icon.png" alt="cancel-icon" id="cancel" class="cancel-icon">
+
+                </nav>
+
             </header>
+            <div class="mob-menu" id="nav">
+                <ul>
+                  
+                    <li><a href="#Portfolio" class="link">Portfolio</a></li>
+                    <li><a href="#About" class="link">About</a></li>
+                    <li><a href="#Contact" class="link">Contact</a></li>
+                </ul>
+            </div>
             <section class="headline">
                 <h1 class="greeting">Hey there.<br>I’m Alex.</h1>
                 <h1 class="greeting-desktop">Hey there. I’m Alex.</h1>
@@ -55,7 +71,7 @@
             </section>
 
         </section>
-        <section class="works_section">
+        <section class="works_section" id="Portfolio">
             <div class="works-heading">
                 <h2 class="mob-view-heading">My Recent <br> Works</h2>
                 <h2 class="desktop-view-heading">My Recent Works</h2>
@@ -169,7 +185,7 @@
 
 
         </section>
-        <section class="about_section">
+        <section class="about_section" id="About">
             <div class="about-details">
                 <h2>About me</h2>
                 <p> I can help you build a product , feature or website Look through some of my work and experience! If
@@ -235,7 +251,7 @@
             </ul>
         </section>
 
-        <section class="contact_section">
+        <section class="contact_section" id="Contact">
             <h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
             <form action="https://formspree.io/f/xknayrqk" method="POST">
                 <input type="text" name="name" id="name" placeholder="Full name" maxlength="30" required>
@@ -270,6 +286,7 @@
 
         </footer>
     </main>
+    <script src="mobile-nav.js"></script>
 
 </body>
 
