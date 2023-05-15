@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Inter', sans-serif;
 }
@@ -101,8 +105,6 @@ p {
   margin-top: 62.3px;
   margin-bottom: 0;
   color: #172b4d;
-  animation-name: slide-in;
-  animation-duration: 1s;
 }
 
 @keyframes slide-in {
@@ -399,6 +401,10 @@ p {
   width: 100%;
 }
 
+.mob-nav {
+  margin: 20px;
+}
+
 .contact_section h2 {
   font-size: 40px;
   line-height: 52px;
@@ -473,6 +479,33 @@ footer .social_media_icons {
   margin-right: auto;
 }
 
+.mob-menu {
+  display: none;
+  width: 100%;
+  flex-direction: column;
+}
+
+.mob-menu ul {
+  list-style: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  margin: 28px;
+}
+
+.mob-menu ul li {
+  margin: 30px 0 30px 0;
+}
+
+.mob-menu ul li a {
+  text-decoration: none;
+  color: #3a4a42;
+}
+
+.cancel-icon {
+  float: right;
+}
+
 @media only screen and (min-width: 768px) {
   .desktop-menu {
     display: flex;
@@ -482,7 +515,7 @@ footer .social_media_icons {
     width: 100%;
   }
 
-  .menu-icon {
+  .mob-nav {
     display: none;
   }
 
