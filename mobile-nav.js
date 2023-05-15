@@ -1,24 +1,32 @@
 const cancel = document.getElementById('cancel');
 const links = document.querySelectorAll('.link');
 const hamburger = document.getElementById('hamburger');
+const body = document.getElementsByTagName('BODY')[0];
+const nav = document.getElementById('nav');
 
 links.forEach((links) => {
   links.addEventListener('click', () => {
-    const x = document.getElementById('nav');
-    x.style.display = 'none';
+    nav.style.display = 'none';
+    hamburger.style.display = 'block';
+    cancel.style.display = 'none';
+    body.style.overflow = 'visible';
   });
 });
 
 cancel.addEventListener('click', () => {
-  const x = document.getElementById('nav');
-  x.style.display = 'none';
+  nav.style.display = 'none';
+  hamburger.style.display = 'block';
+  cancel.style.display = 'none';
+  body.style.overflow = 'visible';
 });
 
 hamburger.addEventListener('click', () => {
-  const x = document.getElementById('nav');
-  if (x.style.display === 'none') {
-    x.style.display = 'flex';
+  if (nav.style.display === 'flex') {
+    nav.style.display = 'none';
   } else {
-    x.style.display = 'none';
+    nav.style.display = 'flex';
   }
+  hamburger.style.display = 'none';
+  cancel.style.display = 'block';
+  body.style.overflow = 'hidden';
 });

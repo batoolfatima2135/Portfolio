@@ -481,6 +481,7 @@ footer .social_media_icons {
 
 .mob-menu {
   display: none;
+  min-height: 100vh;
   width: 100%;
   flex-direction: column;
 }
@@ -504,6 +505,11 @@ footer .social_media_icons {
 
 .cancel-icon {
   float: right;
+  margin: 5px;
+}
+
+#cancel {
+  display: none;
 }
 
 @media only screen and (min-width: 768px) {
