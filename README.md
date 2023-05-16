@@ -61,7 +61,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](- [Live Demo Link](https://www.loom.com/share/f80f439b7e3a401682b9701c3735b925)
+- [Live Demo Link] [Live Demo Link](https://batoolfatima2135.github.io/Portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
