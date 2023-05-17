@@ -843,7 +843,6 @@ footer .social_media_icons {
     box-sizing: border-box;
   }
 
-
   .project button {
     padding: 8px;
     font-size: 12px;
@@ -964,7 +963,6 @@ footer .social_media_icons {
     height: 900px;
   }
 
-
   .btndiv {
     display: flex;
     position: absolute;
@@ -1029,8 +1027,6 @@ footer .social_media_icons {
     height: 950px;
   }
 
-
-
   .btndiv {
     display: flex;
     position: absolute;
@@ -1045,7 +1041,6 @@ footer .social_media_icons {
   .work-item {
     height: 445px;
   }
-
 
   .details h2 {
     font-size: 23px;
