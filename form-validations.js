@@ -1,8 +1,8 @@
 const form = document.getElementById('contact-form');
-form.addEventListener('submit', (event) => {
-  const email = document.getElementById('email').value;
+form.addEventListener('click', (event) => {
+  const email = document.getElementByClass('email').value;
   const checkString = email.toLowerCase();
-  const errorDiv = document.getElementById('error-div');
+  const errorDiv = document.getElementById('errordiv');
   if (!(checkString === email)) {
     const errorShow = document.createElement('p');
     errorShow.textContent = 'Form not submitted, email should be in lowercase.';
