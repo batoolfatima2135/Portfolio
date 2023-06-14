@@ -1,62 +1,32 @@
 const projects = [
   {
-    title: ' Keeping track of hundreds of components',
-    description1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
-    description2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
-    technologies: ['Ruby on Rails', 'CSS', 'Javascript', 'HTML'],
-    image: 'images/work/snapshoot2.png',
-    live_version: 'https://batoolfatima2135.github.io/Portfolio/',
-    source: 'https://github.com/batoolfatima2135/Portfolio',
+    title: 'Techrotics',
+    description1: "Techrotics is an online institute that offers online courses all around the world. Build with javascript, HTML, and CSS, it displays all the necessary information about the courses.",
+    description2: "It is fully responsive website which can be viewed on all screen sizes. Responsiveness is achieved by using bootstrap and media queries",
+    technologies: ['Bootstrap', 'CSS', 'Javascript', 'HTML'],
+    image: 'images/work/Techrotics.png',
+    live_version: 'https://batoolfatima2135.github.io/Capstone/',
+    source: 'https://github.com/batoolfatima2135/Capstone.git',
   },
   {
-    title: ' Keeping track of hundreds of components 2',
-    description1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
-    description2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
-    technologies: ['Ruby on Rails', 'CSS', 'Javascript', 'HTML'],
-    image: 'images/work/snapshoot.png',
-    live_version: 'https://batoolfatima2135.github.io/Portfolio/',
-    source: 'https://github.com/batoolfatima2135/Portfolio',
+    title: 'To-Do-List',
+    description1: "A to-do list is a working javascript app used to store your daily task. Build with javascript, you can add, edit, delete, and clear the to-do tasks.",
+    description2: "It includes the modular implementation in javascript as well as webpack bundler is used to handle the code",
+    technologies: ['Webpack', 'CSS', 'Javascript', 'HTML'],
+    image: 'images/work/to-do-list.png',
+    live_version: 'https://batoolfatima2135.github.io/To-do-List-App/',
+    source: 'https://github.com/batoolfatima2135/To-do-List-App.git',
   },
   {
-    title: ' Keeping track of hundreds of components 3',
-    description1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
-    description2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
-    technologies: ['Ruby on Rails', 'CSS', 'Javascript', 'HTML'],
-    image: 'images/work/snapshoot2.png',
-    live_version: 'https://batoolfatima2135.github.io/Portfolio/',
-    source: 'https://github.com/batoolfatima2135/Portfolio',
+    title: 'Awesome Books',
+    description1: "Collection of wonderfull books with authors",
+    description2: "Built with dynamic javascript with class and method implementations",
+    technologies: ['Bootstrap', 'CSS', 'Javascript', 'HTML'],
+    image: 'images/work/Awesome-books.png',
+    live_version: 'https://batoolfatima2135.github.io/Awesome-books/',
+    source: 'https://github.com/batoolfatima2135/Awesome-books.git',
   },
-  {
-    title: ' Keeping track of hundreds of components 4',
-    description1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
-    description2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
-    technologies: ['Ruby on Rails', 'CSS', 'Javascript', 'HTML'],
-    image: 'images/work/snapshoot.png',
-    live_version: 'https://batoolfatima2135.github.io/Portfolio/',
-    source: 'https://github.com/batoolfatima2135/Portfolio',
-  },
-  {
-
-    title: ' Keeping track of hundreds of components 5',
-    description1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
-    description2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
-    technologies: ['Ruby on Rails', 'CSS', 'Javascript', 'HTML'],
-    image: 'images/work/snapshoot2.png',
-    live_version: 'https://batoolfatima2135.github.io/Portfolio/',
-    source: 'https://github.com/batoolfatima2135/Portfolio',
-
-  },
-  {
-
-    title: ' Keeping track of hundreds of components 6',
-    description1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
-    description2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
-    technologies: ['Ruby on Rails', 'CSS', 'Javascript', 'HTML'],
-    image: 'images/work/snapshoot.png',
-    live_version: 'https://batoolfatima2135.github.io/Portfolio/',
-    source: 'https://github.com/batoolfatima2135/Portfolio',
-
-  },
+ 
 ];
 
 projects.forEach((work) => {
@@ -154,13 +124,17 @@ projects.forEach((work) => {
     });
     modal.appendChild(Uldetail);
     // Creating details for popup window
+    const br = document.createElement('br');
+    const br2 = document.createElement('br');
     const p = document.createElement('p');
     p.className = 'description';
     p.textContent = work.description1;
     const p2 = document.createElement('p');
     p2.textContent = work.description2;
     p2.className = 'description';
+    modal.appendChild(br);
     modal.appendChild(p);
+    modal.appendChild(br2);
     modal.appendChild(p2);
     // Creating buttons for view demo and source
     const Btndivinner = document.createElement('div');
